@@ -1,51 +1,68 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: "Sansation", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
-main{
+
+main {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
-.welcome{
-    display: flex;
-    justify-content: space-center;
+
+.welcome {
     width: 100%;
 }
-section{
+.login{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 250px;
+}
+section {
     background-image: url(img/fundo-login_portifolio.png);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     color: white;
-    width: 50%;
+    width: 80%;
     height: 100vh;
 }
 
-form{
+form {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 50%;  
+    width: 50%;
 }
-input{
+
+input {
     width: 350px;
     height: 40px;
     padding: 10px;
     margin-bottom: 50px;
+    border: 2px solid black;
 }
-h1{
+
+h1 {
     margin-bottom: 70px;
+    font-size: 40px;
 }
-p{
+h2{
+    margin-bottom: 100px;
+    margin-left: 5px;
+    font-size: 35px;
+}
+
+p {
     padding: 180px;
 }
